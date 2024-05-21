@@ -1,0 +1,21 @@
+[06-Mar-2024 22:20:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function send() on null in /home/zgt1vieiesq4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php:217
+Stack trace:
+#0 /home/zgt1vieiesq4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#1 /home/zgt1vieiesq4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#2 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#3 {main}
+  thrown in /home/zgt1vieiesq4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 217
+[06-Mar-2024 22:20:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function send() on null in /home/zgt1vieiesq4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php:217
+Stack trace:
+#0 /home/zgt1vieiesq4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#1 /home/zgt1vieiesq4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#2 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#3 {main}
+  thrown in /home/zgt1vieiesq4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 217
+[04-Apr-2024 22:24:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function send() on null in /home/zgt1vieiesq4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php:217
+Stack trace:
+#0 /home/zgt1vieiesq4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#1 /home/zgt1vieiesq4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#2 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#3 {main}
+  thrown in /home/zgt1vieiesq4/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 217
