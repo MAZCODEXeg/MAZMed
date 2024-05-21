@@ -63,13 +63,13 @@
 
 .fa-ul {
   list-style-type: none;
-  margin-left: 2.5em;
-  padding-left: 0; }
+  margin-right: 2.5em;
+  padding-right: 0; }
   .fa-ul > li {
     position: relative; }
 
 .fa-li {
-  left: -2em;
+  right: -2em;
   position: absolute;
   text-align: center;
   width: 2em;
@@ -80,18 +80,11 @@
   border-radius: .1em;
   padding: .2em .25em .15em; }
 
-.fa-pull-left {
-  float: left; }
-
 .fa-pull-right {
   float: right; }
 
-.fa.fa-pull-left,
-.fas.fa-pull-left,
-.far.fa-pull-left,
-.fal.fa-pull-left,
-.fab.fa-pull-left {
-  margin-right: .3em; }
+.fa-pull-left {
+  float: left; }
 
 .fa.fa-pull-right,
 .fas.fa-pull-right,
@@ -99,6 +92,13 @@
 .fal.fa-pull-right,
 .fab.fa-pull-right {
   margin-left: .3em; }
+
+.fa.fa-pull-left,
+.fas.fa-pull-left,
+.far.fa-pull-left,
+.fal.fa-pull-left,
+.fab.fa-pull-left {
+  margin-right: .3em; }
 
 .fa-spin {
   -webkit-animation: fa-spin 2s infinite linear;
@@ -173,7 +173,7 @@
 
 .fa-stack-1x,
 .fa-stack-2x {
-  left: 0;
+  right: 0;
   position: absolute;
   text-align: center;
   width: 100%; }
@@ -240,10 +240,10 @@ readers do not read off random characters that represent icons */
 .fa-align-justify:before {
   content: "\f039"; }
 
-.fa-align-left:before {
+.fa-align-right:before {
   content: "\f036"; }
 
-.fa-align-right:before {
+.fa-align-left:before {
   content: "\f038"; }
 
 .fa-alipay:before {
@@ -279,10 +279,10 @@ readers do not read off random characters that represent icons */
 .fa-angle-double-down:before {
   content: "\f103"; }
 
-.fa-angle-double-left:before {
+.fa-angle-double-right:before {
   content: "\f100"; }
 
-.fa-angle-double-right:before {
+.fa-angle-double-left:before {
   content: "\f101"; }
 
 .fa-angle-double-up:before {
@@ -291,10 +291,10 @@ readers do not read off random characters that represent icons */
 .fa-angle-down:before {
   content: "\f107"; }
 
-.fa-angle-left:before {
+.fa-angle-right:before {
   content: "\f104"; }
 
-.fa-angle-right:before {
+.fa-angle-left:before {
   content: "\f105"; }
 
 .fa-angle-up:before {
@@ -339,10 +339,10 @@ readers do not read off random characters that represent icons */
 .fa-arrow-alt-circle-down:before {
   content: "\f358"; }
 
-.fa-arrow-alt-circle-left:before {
+.fa-arrow-alt-circle-right:before {
   content: "\f359"; }
 
-.fa-arrow-alt-circle-right:before {
+.fa-arrow-alt-circle-left:before {
   content: "\f35a"; }
 
 .fa-arrow-alt-circle-up:before {
@@ -351,10 +351,10 @@ readers do not read off random characters that represent icons */
 .fa-arrow-circle-down:before {
   content: "\f0ab"; }
 
-.fa-arrow-circle-left:before {
+.fa-arrow-circle-right:before {
   content: "\f0a8"; }
 
-.fa-arrow-circle-right:before {
+.fa-arrow-circle-left:before {
   content: "\f0a9"; }
 
 .fa-arrow-circle-up:before {
@@ -363,10 +363,10 @@ readers do not read off random characters that represent icons */
 .fa-arrow-down:before {
   content: "\f063"; }
 
-.fa-arrow-left:before {
+.fa-arrow-right:before {
   content: "\f060"; }
 
-.fa-arrow-right:before {
+.fa-arrow-left:before {
   content: "\f061"; }
 
 .fa-arrow-up:before {
@@ -447,10 +447,10 @@ readers do not read off random characters that represent icons */
 .fa-balance-scale:before {
   content: "\f24e"; }
 
-.fa-balance-scale-left:before {
+.fa-balance-scale-right:before {
   content: "\f515"; }
 
-.fa-balance-scale-right:before {
+.fa-balance-scale-left:before {
   content: "\f516"; }
 
 .fa-ban:before {
@@ -768,19 +768,19 @@ readers do not read off random characters that represent icons */
 .fa-caret-down:before {
   content: "\f0d7"; }
 
-.fa-caret-left:before {
+.fa-caret-right:before {
   content: "\f0d9"; }
 
-.fa-caret-right:before {
+.fa-caret-left:before {
   content: "\f0da"; }
 
 .fa-caret-square-down:before {
   content: "\f150"; }
 
-.fa-caret-square-left:before {
+.fa-caret-square-right:before {
   content: "\f191"; }
 
-.fa-caret-square-right:before {
+.fa-caret-square-left:before {
   content: "\f152"; }
 
 .fa-caret-square-up:before {
@@ -909,10 +909,10 @@ readers do not read off random characters that represent icons */
 .fa-chevron-circle-down:before {
   content: "\f13a"; }
 
-.fa-chevron-circle-left:before {
+.fa-chevron-circle-right:before {
   content: "\f137"; }
 
-.fa-chevron-circle-right:before {
+.fa-chevron-circle-left:before {
   content: "\f138"; }
 
 .fa-chevron-circle-up:before {
@@ -921,10 +921,10 @@ readers do not read off random characters that represent icons */
 .fa-chevron-down:before {
   content: "\f078"; }
 
-.fa-chevron-left:before {
+.fa-chevron-right:before {
   content: "\f053"; }
 
-.fa-chevron-right:before {
+.fa-chevron-left:before {
   content: "\f054"; }
 
 .fa-chevron-up:before {
@@ -1101,7 +1101,7 @@ readers do not read off random characters that represent icons */
 .fa-copy:before {
   content: "\f0c5"; }
 
-.fa-copyright:before {
+.fa-copyleft:before {
   content: "\f1f9"; }
 
 .fa-cotton-bureau:before {
@@ -2043,10 +2043,10 @@ readers do not read off random characters that represent icons */
 .fa-hand-point-down:before {
   content: "\f0a7"; }
 
-.fa-hand-point-left:before {
+.fa-hand-point-right:before {
   content: "\f0a5"; }
 
-.fa-hand-point-right:before {
+.fa-hand-point-left:before {
   content: "\f0a4"; }
 
 .fa-hand-point-up:before {
@@ -2514,10 +2514,10 @@ readers do not read off random characters that represent icons */
 .fa-long-arrow-alt-down:before {
   content: "\f309"; }
 
-.fa-long-arrow-alt-left:before {
+.fa-long-arrow-alt-right:before {
   content: "\f30a"; }
 
-.fa-long-arrow-alt-right:before {
+.fa-long-arrow-alt-left:before {
   content: "\f30b"; }
 
 .fa-long-arrow-alt-up:before {
@@ -3156,10 +3156,10 @@ readers do not read off random characters that represent icons */
 .fa-quora:before {
   content: "\f2c4"; }
 
-.fa-quote-left:before {
+.fa-quote-right:before {
   content: "\f10d"; }
 
-.fa-quote-right:before {
+.fa-quote-left:before {
   content: "\f10e"; }
 
 .fa-quran:before {

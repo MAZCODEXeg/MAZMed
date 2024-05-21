@@ -30,13 +30,13 @@
     min-width: 100%;
     width: auto;
     height: auto;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
 }
 .testimonials-page .testimonial-section .testimonial-block .quote-img {
   top: 30px;
-  right: -20px;
+  left: -20px;
   width: 40px;
   height: 40px;
   background-color: #ff8e4b;
@@ -47,7 +47,7 @@
 @media (max-widtH: 575px) {
   .testimonials-page .testimonial-section .testimonial-block .quote-img {
     top: auto;
-    right: 20px;
+    left: 20px;
     bottom: -20px;
   }
 }
@@ -57,6 +57,6 @@
 @media (min-width: 576px) {
   .testimonials-page .testimonial-section .testimonial-block .testimonial-body {
     width: calc(100% - 192px);
-    padding-left: 40px;
+    padding-right: 40px;
   }
 }

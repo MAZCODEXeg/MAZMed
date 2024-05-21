@@ -32,9 +32,21 @@
     <link rel="prefetch" href="{{ asset('web_front/js/9.js') }}">
     <link rel="stylesheet" href="{{ asset('web_front/assets/css//0.styles.c7307597.css') }}">
     <style>
-        body, h1, h2, h3, h4, h5, div, ul, li, a, span, button {
-            text-align: right;
+        .header__bg {
+            background-image: url('{{ asset('web_front/images/bg-1.png') }}');
+            background-size: cover;
+            background-position: center;
         }
+
+        @media (max-width: 767px) {
+            .header__bg {
+                background-image: url('{{ asset('web_front/images/bg-1.png') }}'); /* Add a mobile-specific background if needed */
+            }
+            .header__bg h3, p{
+                text-align: center !important;
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -49,7 +61,6 @@
                                 <a href="#" class="navbar-brand p-0" data-v-63a40443>
                                     <img src="{{ asset('web_front/images/logo.png') }}" alt="#" data-v-63a40443>
                                 </a>
-                                <h4 class="navbar-brand-name m-0" data-v-63a40443>بواسطة MAZCODEX</h4>
                                 <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                                         aria-controls="navbarSupportedContent" aria-expanded="false"
                                         aria-label="Toggle navigation" class="navbar-toggler navbar-toggler_second"
@@ -72,11 +83,11 @@
                 <div class="row" data-v-63a40443>
                     <div class="col-md-6">
                         <div class="hero-title text-center text-lg-left">
+                            <img src="{{ asset('web_front/images/hms-hero-image.png') }}" alt="#" class="img-fluid" data-v-63a40443>
                             <h3 data-v-63a40443 style="color:white">إدارة الأنشطة الطبية رقمياً</h3>
                             <p style="text-align:right;" class="hero-title__desc" data-v-63a40443>
                                 MAZMed هو نظام إدارة المنظمات الطبية القوي الذي يسهل العمل ويوفر الكثير من الوقت.
                             </p>
-                            <img src="{{ asset('web_front/images/hms-hero-image.png') }}" alt="#" class="img-fluid" data-v-63a40443>
                             <div class="add-btn pricing-btn_wrap ml-0 mt-lg-4 mb-5 mb-lg-0" data-v-63a40443>
                                 <a href="{{ url('/home-page') }}" class="btn btn-success" data-v-63a40443>زيارة العرض التوضيحي</a>
                             </div>

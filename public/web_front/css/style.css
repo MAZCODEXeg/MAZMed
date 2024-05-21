@@ -72,7 +72,7 @@ Default CSS
   --heading-font-family: 'Poppins', sans-serif;
   --main-color: #169fed;
   --optional-color: #ef720c;
-  --gradient-color:  linear-gradient(to right, #d6f9f9, #daf5f5, #def2f2, #e2eeee, #e5eaea);
+  --gradient-color:  linear-gradient(to left, #d6f9f9, #daf5f5, #def2f2, #e2eeee, #e5eaea);
   --white-color: #ffffff;
   --black-color: #07003b;
   --paragraph-color: #507392;
@@ -198,7 +198,7 @@ Default Btn CSS
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 50%;
+  right: 50%;
   width: 550px;
   height: 550px;
   margin: auto;
@@ -283,8 +283,8 @@ Preloader Area CSS
   width: 100%;
   height: 100%;
   text-align: center;
-  left: 0;
   right: 0;
+  left: 0;
 }
 
 .preloader .lds-spinner {
@@ -307,7 +307,7 @@ Preloader Area CSS
   display: block;
   position: absolute;
   top: 3px;
-  left: 37px;
+  right: 37px;
   width: 6px;
   height: 18px;
   border-radius: 20%;
@@ -431,8 +431,8 @@ Main Banner Area CSS
 }
 
 .main-banner-area .container-fluid {
-  padding-left: 50px;
   padding-right: 50px;
+  padding-left: 50px;
 }
 
 .main-banner-content-with-search {
@@ -463,27 +463,27 @@ Main Banner Area CSS
   -webkit-box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
           box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
   border-radius: 50px;
-  padding-right: 130px;
+  padding-left: 130px;
   margin-top: 30px;
 }
 
 .main-banner-content-with-search .banner-search-form .form-group {
   margin: 0;
-  border-right: 1px solid #d9dee2;
+  border-left: 1px solid #d9dee2;
   position: relative;
 }
 
-.main-banner-content-with-search .banner-search-form .form-group.border-right {
-  border-right: none;
+.main-banner-content-with-search .banner-search-form .form-group.border-left {
+  border-left: none;
   position: relative;
 }
 
-.main-banner-content-with-search .banner-search-form .form-group.border-right .form-control {
+.main-banner-content-with-search .banner-search-form .form-group.border-left .form-control {
   padding: 15px 15px 15px 25px;
 }
 
-.main-banner-content-with-search .banner-search-form .form-group.border-right label {
-  left: 0;
+.main-banner-content-with-search .banner-search-form .form-group.border-left label {
+  right: 0;
 }
 
 .main-banner-content-with-search .banner-search-form .form-group label {
@@ -491,7 +491,7 @@ Main Banner Area CSS
   display: block;
   margin-bottom: 0;
   position: absolute;
-  left: 25px;
+  right: 25px;
   color: #62606c;
   font-size: 18px;
   top: 20px;
@@ -559,7 +559,7 @@ Main Banner Area CSS
 .main-banner-content-with-search .banner-search-form .search-btn {
   position: absolute;
   top: 50%;
-  right: 0;
+  left: 0;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
@@ -572,7 +572,7 @@ Main Banner Area CSS
 }
 
 .main-banner-content-with-search .banner-search-form .search-btn .default-btn i {
-  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .main-banner-content-with-search .banner-search-form .search-btn .default-btn:before {
@@ -591,13 +591,13 @@ Main Banner Area CSS
   font-family: var(--heading-font-family);
   color: var(--black-color);
   position: relative;
-  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .main-banner-content-with-search .banner-bottom-text p i {
   color: var(--main-color);
   position: absolute;
-  left: 0;
+  right: 0;
   top: 5px;
   font-size: 20px;
 }
@@ -612,8 +612,8 @@ Main Banner Area CSS
   position: absolute;
   content: "";
   background: #b1f1fa;
-  right: 0;
   left: 0;
+  right: 0;
   margin: auto;
   bottom: -50px;
   width: 750px;
@@ -624,7 +624,7 @@ Main Banner Area CSS
 
 .main-banner-image-with-doctor .banner-card-content {
   position: absolute;
-  left: 0;
+  right: 0;
   bottom: 70px;
   background-color: var(--white-color);
   -webkit-box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
@@ -669,7 +669,7 @@ Main Banner Area CSS
 
 .main-banner-image-with-doctor .banner-doctor-content {
   position: absolute;
-  right: 0;
+  left: 0;
   top: 10%;
   -webkit-transform: translateY(-10%);
           transform: translateY(-10%);
@@ -717,7 +717,7 @@ Main Banner Area CSS
 
 .main-banner-image-with-doctor .banner-doctor-content .doctor-info-box .info-item {
   position: relative;
-  padding-left: 65px;
+  padding-right: 65px;
   margin-bottom: 20px;
 }
 
@@ -731,7 +731,7 @@ Main Banner Area CSS
     width: 52px;
     border-radius: 50%;
     position: absolute;
-    left: 0;
+    right: 0;
     top: 50%;
     object-fit: cover;
     -webkit-transform: translateY(-50%);
@@ -770,14 +770,14 @@ Main Banner Area CSS
 
 .main-banner-image-with-doctor .banner-image-shape-1 {
   position: absolute;
-  left: 20px;
+  right: 20px;
   bottom: 30px;
   z-index: -1;
 }
 
 .main-banner-image-with-doctor .banner-image-shape-2 {
   position: absolute;
-  right: 0;
+  left: 0;
   bottom: 70px;
   z-index: -1;
 }
@@ -817,12 +817,12 @@ Main Banner With Man Doctor Area CSS
 .main-banner-with-man-content .banner-information {
   position: relative;
   margin-top: 35px;
-  padding-left: 105px;
+  padding-right: 105px;
 }
 
 .main-banner-with-man-content .banner-information .icon {
   position: absolute;
-  left: 0;
+  right: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -878,11 +878,11 @@ Main Banner With Man Doctor Area CSS
 
 .main-banner-with-man-content .banner-btn-list li {
   display: inline-block;
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .main-banner-with-man-content .banner-btn-list li:last-child {
-  margin-right: 0;
+  margin-left: 0;
 }
 
 .main-banner-with-man-content .banner-btn-list li .default-btn {
@@ -924,8 +924,8 @@ Main Banner Wrap Area CSS
 }
 
 .main-banner-area-wrap .container-fluid {
-  padding-left: 50px;
   padding-right: 50px;
+  padding-left: 50px;
 }
 
 .main-banner-wrap-content span {
@@ -965,13 +965,13 @@ Main Banner Wrap Area CSS
 }
 
 .main-banner-image-wrap {
-  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .banner-dot-shape {
   position: absolute;
   top: 10%;
-  left: 5%;
+  right: 5%;
   z-index: -1;
   -webkit-transform: translateY(-10%);
           transform: translateY(-10%);
@@ -1033,7 +1033,7 @@ Main Slides Area CSS
   color: var(--main-color);
   margin: 0;
   position: absolute;
-  left: 20px;
+  right: 20px;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -1051,8 +1051,8 @@ Main Slides Area CSS
 }
 
 .home-slides.owl-theme .owl-nav [class*=owl-].owl-next {
-  left: auto;
-  right: 20px;
+  right: auto;
+  left: 20px;
 }
 
 .home-slides.owl-theme .owl-nav [class*=owl-]:hover {
@@ -1126,8 +1126,8 @@ Easy Solutions Area CSS
 .easy-solutions-line-shape {
   position: absolute;
   top: 30%;
-  left: -195px;
-  right: 0;
+  right: -195px;
+  left: 0;
   text-align: center;
   -webkit-transform: translateY(-30%);
           transform: translateY(-30%);
@@ -1143,8 +1143,8 @@ Book Appointment Area CSS
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 15px;
-  padding-left: 50px;
   padding-right: 50px;
+  padding-left: 50px;
 }
 
 .book-appointment-inner-box .book-appointment-title h3 {
@@ -1178,7 +1178,7 @@ Book Appointment Area CSS
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  right: 20px !important;
+  left: 20px !important;
   margin-top: 2px;
   font-size: 18px;
   width: unset;
@@ -1258,7 +1258,7 @@ Book Appointment Area CSS
   display: block;
   margin-bottom: 0;
   position: absolute;
-  right: 20px;
+  left: 20px;
   color: #62606c;
   font-size: 18px;
   top: 50%;
@@ -1290,7 +1290,7 @@ Book Appointment Area CSS
   width: 25px;
   height: 25px;
   line-height: 25px;
-  left: -2px;
+  right: -2px;
   cursor: pointer;
   text-align: center;
   -webkit-transition: var(--transition);
@@ -1314,7 +1314,7 @@ Book Appointment Area CSS
   line-height: 25px;
   cursor: pointer;
   text-align: center;
-  right: -2px;
+  left: -2px;
   -webkit-transition: var(--transition);
   transition: var(--transition);
   border-radius: 50px;
@@ -1436,7 +1436,7 @@ Why Choose Area CSS
 }
 
 .why-choose-content {
-  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .why-choose-content .about-us-content {
@@ -1467,7 +1467,7 @@ Why Choose Area CSS
 .why-choose-shape-1 {
   position: absolute;
   bottom: 8%;
-  left: 2%;
+  right: 2%;
   z-index: -1;
   -webkit-transform: translateY(-8%) translateX(-2%);
           transform: translateY(-8%) translateX(-2%);
@@ -1476,7 +1476,7 @@ Why Choose Area CSS
 .why-choose-shape-2 {
   position: absolute;
   top: 25%;
-  right: 10%;
+  left: 10%;
   z-index: -1;
   -webkit-transform: translateY(-25%) translateX(-10%);
           transform: translateY(-25%) translateX(-10%);
@@ -1491,8 +1491,8 @@ Services Area CSS
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 15px;
-  margin-left: 50px;
   margin-right: 50px;
+  margin-left: 50px;
 }
 
 .our-service-cards {
@@ -1517,8 +1517,8 @@ Services Area CSS
 .single-services-card .image::before {
   position: absolute;
   content: "";
-  left: 0;
   right: 0;
+  left: 0;
   height: 65px;
   width: 65px;
   background: var(--gradient-color);
@@ -1581,7 +1581,7 @@ Services Area CSS
 
 .single-services-card .services-shape-1 {
   position: absolute;
-  right: -70px;
+  left: -70px;
   top: -70px;
   opacity: 20%;
   z-index: -1;
@@ -1604,7 +1604,7 @@ Services Area CSS
 .single-services-item::before {
   position: absolute;
   content: "";
-  left: 0;
+  right: 0;
   top: 0;
   height: 100%;
   width: 0%;
@@ -1624,8 +1624,8 @@ Services Area CSS
 .single-services-item .image::before {
   position: absolute;
   content: "";
-  left: 0;
   right: 0;
+  left: 0;
   height: 65px;
   width: 65px;
   background: var(--gradient-color);
@@ -1707,8 +1707,8 @@ Services Area CSS
 .services-shape-wrap {
   position: absolute;
   bottom: 12%;
-  right: 0;
   left: 0;
+  right: 0;
   margin: auto;
   text-align: center;
   z-index: -1;
@@ -1741,7 +1741,7 @@ Services Details Area CSS
 }
 
 .services-details-desc .services-features-list {
-  padding-left: 0;
+  padding-right: 0;
   list-style-type: none;
   margin-bottom: 0;
 }
@@ -1753,7 +1753,7 @@ Services Details Area CSS
   font-weight: 500;
   font-family: var(--heading-font-family);
   position: relative;
-  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .services-details-desc .services-features-list li:last-child {
@@ -1764,7 +1764,7 @@ Services Details Area CSS
   color: var(--main-color);
   font-size: 20px;
   position: absolute;
-  left: 0;
+  right: 0;
   top: 1px;
 }
 
@@ -1785,11 +1785,11 @@ Services Details Area CSS
 
 .services-details-desc .single-services-details-card::before {
   content: '';
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(black));
+  background: -webkit-gradient(linear, right top, right bottom, from(rgba(0, 0, 0, 0)), to(black));
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
   width: 100%;
   height: 45%;
-  left: 0;
+  right: 0;
   bottom: 0;
   position: absolute;
   -webkit-transition: var(--transition);
@@ -1801,8 +1801,8 @@ Services Details Area CSS
 .services-details-desc .single-services-details-card .content {
   position: absolute;
   bottom: 0;
-  left: 0;
   right: 0;
+  left: 0;
   width: 100%;
   padding: 30px;
   z-index: 5;
@@ -1872,8 +1872,8 @@ Healthcare Doctor Area CSS
   position: absolute;
   content: "";
   background: var(--gradient-color);
-  right: 0;
-  left: 40px;
+  left: 0;
+  right: 40px;
   margin: auto;
   bottom: 5px;
   width: 650px;
@@ -1885,7 +1885,7 @@ Healthcare Doctor Area CSS
 
 .healthcare-doctor-image .healthcare-card-content {
   position: absolute;
-  left: 0;
+  right: 0;
   bottom: 70px;
   background-color: var(--black-color);
   padding: 25px;
@@ -1973,8 +1973,8 @@ Professional Doctors Area CSS
   text-align: center;
   background: var(--gradient-color);
   padding-top: 40px;
-  padding-left: 15px;
   padding-right: 15px;
+  padding-left: 15px;
   border-radius: 10px;
   position: relative;
 }
@@ -1993,7 +1993,7 @@ Professional Doctors Area CSS
 
 .professional-doctors-card .doctors-image .add-icon {
   position: absolute;
-  left: 20px;
+  right: 20px;
   top: 20px;
 }
 
@@ -2015,11 +2015,11 @@ Professional Doctors Area CSS
 }
 
 .professional-doctors-card .doctors-image .social {
-  padding-left: 0;
+  padding-right: 0;
   list-style-type: none;
   position: absolute;
-  right: 0;
   left: 0;
+  right: 0;
   bottom: 20px;
   margin-bottom: 0;
 }
@@ -2151,7 +2151,7 @@ Professional Doctors Area CSS
 .professional-doctors-shape-1 {
   position: absolute;
   top: 25%;
-  right: 5%;
+  left: 5%;
   z-index: -1;
   -webkit-transform: translateY(-25%) translateX(-5%);
           transform: translateY(-25%) translateX(-5%);
@@ -2174,8 +2174,8 @@ Professional Doctors Area CSS
 .single-doctors-card .doctors-image::before {
   position: absolute;
   content: "";
-  left: 0;
   right: 0;
+  left: 0;
   height: 100px;
   width: 100px;
   background: #c5d5ff;
@@ -2223,7 +2223,7 @@ Professional Doctors Area CSS
 }
 
 .single-doctors-card .doctors-content .doc-info .rating {
-  float: right;
+  float: left;
 }
 
 .single-doctors-card .doctors-content .doc-info .rating i {
@@ -2231,7 +2231,7 @@ Professional Doctors Area CSS
   font-size: 18px;
   position: relative;
   top: 2px;
-  margin-right: 2px;
+  margin-left: 2px;
 }
 
 .single-doctors-card .doctors-content span {
@@ -2284,7 +2284,7 @@ Doctors Details Area CSS
 }
 
 .doctors-details-desc {
-  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .doctors-details-content h3 {
@@ -2311,11 +2311,11 @@ Doctors Details Area CSS
   font-weight: 500;
   color: var(--black-color);
   font-family: var(--heading-font-family);
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .doctors-details-content .doc-info li:last-child {
-  margin-right: 0;
+  margin-left: 0;
 }
 
 .doctors-details-content .doc-info .rating {
@@ -2329,7 +2329,7 @@ Doctors Details Area CSS
   font-size: 18px;
   position: relative;
   top: 2px;
-  margin-right: 2px;
+  margin-left: 2px;
 }
 
 .doctors-details-content .doc-social {
@@ -2340,11 +2340,11 @@ Doctors Details Area CSS
 .doctors-details-content .doc-social li {
   list-style-type: none;
   display: inline-block;
-  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .doctors-details-content .doc-social li:last-child {
-  margin-right: 0;
+  margin-left: 0;
 }
 
 .doctors-details-content .doc-social li a i {
@@ -2371,7 +2371,7 @@ Doctors Details Area CSS
 }
 
 .doctors-details-content .doc-basic-info .basic-info-item .row .col-lg-9 {
-  border-left: 1px solid #88fbd2;
+  border-right: 1px solid #88fbd2;
 }
 
 .doctors-details-content .doc-basic-info .basic-info-item h4 {
@@ -2384,13 +2384,13 @@ Doctors Details Area CSS
   font-size: var(--font-size);
   color: #6f8ba4;
   font-weight: 400;
-  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .doctors-details-content .doc-basic-info .basic-info-item .info-list {
   padding: 0;
   margin-bottom: 0;
-  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .doctors-details-content .doc-basic-info .basic-info-item .info-list li {
@@ -2400,7 +2400,7 @@ Doctors Details Area CSS
   font-weight: 400;
   margin-bottom: 15px;
   position: relative;
-  padding-left: 28px;
+  padding-right: 28px;
 }
 
 .doctors-details-content .doc-basic-info .basic-info-item .info-list li:last-child {
@@ -2416,9 +2416,9 @@ Doctors Details Area CSS
   color: var(--white-color);
   text-align: center;
   border-radius: 50px;
-  margin-right: 5px;
+  margin-left: 5px;
   position: absolute;
-  left: 0;
+  right: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -2463,7 +2463,7 @@ Doctors Details Area CSS
 .dentist-details-overview-content .overview-text p span {
   font-size: 20px;
   font-weight: 600;
-  margin-right: 5px;
+  margin-left: 5px;
   color: var(--black-color);
   font-family: var(--heading-font-family);
 }
@@ -2513,8 +2513,8 @@ Testimonials Area CSS
 
 .testimonials-card-item .image .double-quotes-icon {
   position: absolute;
-  right: 0;
-  left: 85px;
+  left: 0;
+  right: 85px;
   bottom: 0;
 }
 
@@ -2568,8 +2568,8 @@ Testimonials Area CSS
 .testimonials-card-item .testimonials-shape-1 {
   position: absolute;
   top: 5%;
-  right: 0;
   left: 0;
+  right: 0;
   z-index: -1;
   -webkit-transform: translateY(-5%);
           transform: translateY(-5%);
@@ -2619,7 +2619,7 @@ Testimonials Area CSS
 
 .testimonials-slides-two.owl-theme .owl-nav [class*=owl-] {
   position: absolute;
-  right: 55px;
+  left: 55px;
   top: -80px;
   margin: 0;
   outline: 0;
@@ -2640,8 +2640,8 @@ Testimonials Area CSS
 }
 
 .testimonials-slides-two.owl-theme .owl-nav [class*=owl-].owl-next {
-  right: 0;
-  left: auto;
+  left: 0;
+  right: auto;
 }
 
 .testimonials-slides-two.owl-theme .owl-nav [class*=owl-] i {
@@ -2696,7 +2696,7 @@ Blog Area CSS
   display: inline-block;
   border-radius: 5px;
   position: absolute;
-  right: 10px;
+  left: 10px;
   bottom: 10px;
 }
 
@@ -2713,7 +2713,7 @@ Blog Area CSS
   position: absolute;
   z-index: 1;
   top: 50%;
-  left: 50%;
+  right: 50%;
   opacity: 0;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -2722,7 +2722,7 @@ Blog Area CSS
 .blog-card-item .image::before {
   width: 60px;
   height: 1px;
-  left: 100%;
+  right: 100%;
 }
 
 .blog-card-item .image::after {
@@ -2776,7 +2776,7 @@ Blog Area CSS
 .blog-card-item:hover .image::before, .blog-card-item:hover .image::after {
   opacity: 1;
   top: 50%;
-  left: 50%;
+  right: 50%;
 }
 
 .blog-card-item:hover .content h3 a {
@@ -2818,7 +2818,7 @@ Blog Area CSS
   position: absolute;
   z-index: 1;
   top: 50%;
-  left: 50%;
+  right: 50%;
   opacity: 0;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -2827,7 +2827,7 @@ Blog Area CSS
 .single-blog-card .post-image::before {
   width: 60px;
   height: 1px;
-  left: 100%;
+  right: 100%;
 }
 
 .single-blog-card .post-image::after {
@@ -2886,7 +2886,7 @@ Blog Area CSS
 .single-blog-card .blog-content .author-content .author img {
   width: 30px;
   height: 30px;
-  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .single-blog-card .blog-content .author-content .author span {
@@ -2908,15 +2908,15 @@ Blog Area CSS
   font-size: var(--font-size);
   margin-bottom: 0;
   position: relative;
-  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .single-blog-card .blog-content .author-content p i {
   color: var(--main-color);
   font-size: var(--font-size);
-  margin-right: 5px;
+  margin-left: 5px;
   position: absolute;
-  left: 0;
+  right: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -2930,7 +2930,7 @@ Blog Area CSS
 .single-blog-card:hover .post-image::before, .single-blog-card:hover .post-image::after {
   opacity: 1;
   top: 50%;
-  left: 50%;
+  right: 50%;
 }
 
 .single-blog-card:hover .blog-content h3 a {
@@ -2973,8 +2973,8 @@ Blog Area CSS
 }
 
 .blog-slides .blog-card-item {
-  margin-left: 5px;
   margin-right: 5px;
+  margin-left: 5px;
 }
 
 .blog-slides-two.owl-theme .owl-nav {
@@ -2983,7 +2983,7 @@ Blog Area CSS
 
 .blog-slides-two.owl-theme .owl-nav [class*=owl-] {
   position: absolute;
-  right: 55px;
+  left: 55px;
   top: -80px;
   margin: 0;
   outline: 0;
@@ -3004,8 +3004,8 @@ Blog Area CSS
 }
 
 .blog-slides-two.owl-theme .owl-nav [class*=owl-].owl-next {
-  right: 0;
-  left: auto;
+  left: 0;
+  right: auto;
 }
 
 .blog-slides-two.owl-theme .owl-nav [class*=owl-] i {
@@ -3016,15 +3016,15 @@ Blog Area CSS
 }
 
 .blog-slides-two .single-blog-card {
-  margin-left: 5px;
   margin-right: 5px;
+  margin-left: 5px;
 }
 
 .blog-shape-1 {
   position: absolute;
   bottom: 5%;
-  right: 0;
   left: 0;
+  right: 0;
   margin: auto;
   text-align: center;
   z-index: -1;
@@ -3046,7 +3046,7 @@ Blog Details Area CSS
 
 .blog-details-desc .article-content .article-image .tag {
   position: absolute;
-  left: 10px;
+  right: 10px;
   bottom: 10px;
 }
 
@@ -3071,7 +3071,7 @@ Blog Details Area CSS
   display: inline-block;
   border-radius: 5px;
   position: absolute;
-  right: 10px;
+  left: 10px;
   bottom: 10px;
   border-radius: 50%;
 }
@@ -3082,7 +3082,7 @@ Blog Details Area CSS
 }
 
 .blog-details-desc .article-content .entry-meta {
-  padding-left: 0;
+  padding-right: 0;
   margin-bottom: 20px;
 }
 
@@ -3092,18 +3092,18 @@ Blog Details Area CSS
   color: var(--paragraph-color);
   font-size: 14px;
   font-weight: 400;
-  margin-right: 20px;
+  margin-left: 20px;
   position: relative;
-  padding-left: 20px;
+  padding-right: 20px;
   font-family: var(--heading-font-family);
 }
 
 .blog-details-desc .article-content .entry-meta li:last-child {
-  margin-right: 0;
+  margin-left: 0;
 }
 
 .blog-details-desc .article-content .entry-meta li:first-child {
-  padding-left: 0;
+  padding-right: 0;
 }
 
 .blog-details-desc .article-content .entry-meta li a {
@@ -3116,7 +3116,7 @@ Blog Details Area CSS
 
 .blog-details-desc .article-content .entry-meta li i {
   position: absolute;
-  left: 0;
+  right: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -3129,7 +3129,7 @@ Blog Details Area CSS
   height: 30px;
   width: 30px;
   border-radius: 50%;
-  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .blog-details-desc .article-content h3 {
@@ -3146,14 +3146,14 @@ Blog Details Area CSS
   border-radius: 10px;
   position: relative;
   padding: 30px 30px 30px 70px;
-  margin-left: 20px;
+  margin-right: 20px;
   margin-top: 25px;
   margin-bottom: 25px;
 }
 
 .blog-details-desc .article-content .block-quote .icon {
   position: absolute;
-  left: -20px;
+  right: -20px;
   top: 40px;
 }
 
@@ -3187,7 +3187,7 @@ Blog Details Area CSS
 }
 
 .blog-details-desc .article-content .article-share {
-  padding-left: 0;
+  padding-right: 0;
   padding-top: 25px;
   padding-bottom: 25px;
   margin-top: 25px;
@@ -3199,7 +3199,7 @@ Blog Details Area CSS
 
 .blog-details-desc .article-content .article-share span {
   color: var(--paragraph-color);
-  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .blog-details-desc .article-content .article-share span i {
@@ -3212,11 +3212,11 @@ Blog Details Area CSS
 .blog-details-desc .article-content .article-share li {
   list-style-type: none;
   display: inline-block;
-  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .blog-details-desc .article-content .article-share li:last-child {
-  margin-right: 0;
+  margin-left: 0;
 }
 
 .blog-details-desc .article-content .article-share li a i {
@@ -3240,7 +3240,7 @@ Blog Details Area CSS
 
 .blog-details-desc .article-comments .comments-list {
   position: relative;
-  padding-left: 105px;
+  padding-right: 105px;
   margin-bottom: 35px;
   padding-bottom: 30px;
   border-bottom: 1px solid #e1e1e1;
@@ -3254,7 +3254,7 @@ Blog Details Area CSS
 
 .blog-details-desc .article-comments .comments-list img {
   position: absolute;
-  left: 0;
+  right: 0;
   top: 0;
   display: inline-block;
   height: 85px;
@@ -3281,7 +3281,7 @@ Blog Details Area CSS
   -webkit-transition: var(--transition);
   transition: var(--transition);
   font-weight: 500;
-  margin-left: 30px;
+  margin-right: 30px;
   font-style: italic;
   border-bottom: 1px solid var(--main-color);
   position: relative;
@@ -3421,7 +3421,7 @@ About Area CSS
 }
 
 .about-content {
-  padding-left: 45px;
+  padding-right: 45px;
 }
 
 .about-content h3 {
@@ -3455,7 +3455,7 @@ About Area CSS
   font-family: var(--heading-font-family);
   margin-bottom: 12px;
   position: relative;
-  padding-left: 22px;
+  padding-right: 22px;
 }
 
 .about-content .about-list li:last-child {
@@ -3465,7 +3465,7 @@ About Area CSS
 .about-content .about-list li i {
   font-size: 18px;
   position: absolute;
-  left: 0;
+  right: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -3486,8 +3486,8 @@ Offer Area CSS
 .offer-area {
   background-color: #b1f1fa;
   border-radius: 15px;
-  margin-left: 50px;
   margin-right: 50px;
+  margin-left: 50px;
 }
 
 .offer-area .section-title-wrap span {
@@ -3515,8 +3515,8 @@ Offer Area CSS
 .single-offer-card .image::before {
   position: absolute;
   content: "";
-  left: 0;
   right: 0;
+  left: 0;
   height: 65px;
   width: 65px;
   background: var(--gradient-color);
@@ -3573,7 +3573,7 @@ Offer Area CSS
 
 .single-offer-card .offer-shape-1 {
   position: absolute;
-  right: -70px;
+  left: -70px;
   top: -70px;
   opacity: 20%;
   z-index: -1;
@@ -3585,7 +3585,7 @@ Offer Area CSS
 
 .offer-slides.owl-theme .owl-nav [class*=owl-] {
   position: absolute;
-  right: 55px;
+  left: 55px;
   top: -80px;
   margin: 0;
   outline: 0;
@@ -3608,8 +3608,8 @@ Offer Area CSS
 }
 
 .offer-slides.owl-theme .owl-nav [class*=owl-].owl-next {
-  right: 0;
-  left: auto;
+  left: 0;
+  right: auto;
 }
 
 .offer-slides.owl-theme .owl-nav [class*=owl-] i {
@@ -3628,7 +3628,7 @@ Portfolio Area CSS
 
 .portfolio-area-with-slides .container-fluid {
   overflow: hidden;
-  left: calc((100% - 1320px)/2);
+  right: calc((100% - 1320px)/2);
   position: relative;
 }
 
@@ -3678,8 +3678,8 @@ Portfolio Area CSS
   -webkit-box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
           box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
   border-radius: 10px;
-  margin-left: 5px;
   margin-right: 5px;
+  margin-left: 5px;
   margin-bottom: 5px;
   overflow: hidden;
   cursor: -webkit-zoom-in;
@@ -3706,7 +3706,7 @@ Portfolio Area CSS
   position: absolute;
   z-index: 1;
   top: 50%;
-  left: 50%;
+  right: 50%;
   opacity: 0;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -3715,7 +3715,7 @@ Portfolio Area CSS
 .portfolio-slides-card .image::before {
   width: 60px;
   height: 1px;
-  left: 100%;
+  right: 100%;
 }
 
 .portfolio-slides-card .image::after {
@@ -3750,7 +3750,7 @@ Portfolio Area CSS
 .portfolio-slides-card:hover .image::before, .portfolio-slides-card:hover .image::after {
   opacity: 1;
   top: 50%;
-  left: 50%;
+  right: 50%;
 }
 
 .portfolio-slides.owl-theme .owl-nav {
@@ -3812,7 +3812,7 @@ Portfolio Area CSS
   font-size: var(--font-size);
   font-weight: 500;
   font-family: var(--heading-font-family);
-  margin-right: 20px;
+  margin-left: 20px;
   position: relative;
   -webkit-transition: var(--transition);
   transition: var(--transition);
@@ -3821,8 +3821,8 @@ Portfolio Area CSS
 .portfolio-list-tab .tabs li::before {
   position: absolute;
   content: "";
-  left: 0;
   right: 0;
+  left: 0;
   bottom: -18px;
   height: 100%;
   width: 0%;
@@ -3834,7 +3834,7 @@ Portfolio Area CSS
 }
 
 .portfolio-list-tab .tabs li:last-child {
-  margin-right: 0;
+  margin-left: 0;
 }
 
 .portfolio-list-tab .tabs li.current {
@@ -3878,7 +3878,7 @@ Portfolio Area CSS
   position: absolute;
   z-index: 1;
   top: 50%;
-  left: 50%;
+  right: 50%;
   opacity: 0;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -3887,7 +3887,7 @@ Portfolio Area CSS
 .portfolio-list-tab .single-portfolio-card .image::before {
   width: 60px;
   height: 1px;
-  left: 100%;
+  right: 100%;
 }
 
 .portfolio-list-tab .single-portfolio-card .image::after {
@@ -3922,7 +3922,7 @@ Portfolio Area CSS
 .portfolio-list-tab .single-portfolio-card:hover .image::before, .portfolio-list-tab .single-portfolio-card:hover .image::after {
   opacity: 1;
   top: 50%;
-  left: 50%;
+  right: 50%;
 }
 
 .portfolio-list-tab .single-portfolio-card:hover .content h3 a {
@@ -3973,10 +3973,10 @@ Portfolio Details CSS
   display: block;
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   z-index: -1;
   bottom: 0;
-  left: 0;
+  right: 0;
   border-radius: 50%;
   border: 1px solid var(--white-color);
   -webkit-animation: ripple 1s linear infinite;
@@ -4020,7 +4020,7 @@ Portfolio Details CSS
   font-weight: 700;
   color: var(--black-color);
   display: inline-block;
-  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .portfolio-desc-information .info-box li a {
@@ -4033,7 +4033,7 @@ Portfolio Details CSS
 }
 
 .portfolio-desc-information .social {
-  padding-left: 0;
+  padding-right: 0;
   list-style-type: none;
   margin-top: 20px;
   margin-bottom: 0;
@@ -4041,11 +4041,11 @@ Portfolio Details CSS
 
 .portfolio-desc-information .social li {
   display: inline-block;
-  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .portfolio-desc-information .social li:last-child {
-  margin-right: 0;
+  margin-left: 0;
 }
 
 .portfolio-desc-information .social li a i {
@@ -4101,14 +4101,14 @@ Portfolio Details CSS
   font-size: 18px;
   font-weight: 600;
   padding-top: 20px;
-  padding-left: 35px;
+  padding-right: 35px;
   padding-bottom: 20px;
-  padding-right: 100px;
+  padding-left: 100px;
 }
 
 .portfolio-details-accordion .accordion-item .accordion-button::before {
   top: 50%;
-  right: 30px;
+  left: 30px;
   width: 40px;
   height: 40px;
   line-height: 38px;
@@ -4182,12 +4182,12 @@ Appointment Form Area CSS
 .appointment-form-content .appointment-information {
   position: relative;
   margin-top: 35px;
-  padding-left: 105px;
+  padding-right: 105px;
 }
 
 .appointment-form-content .appointment-information .icon {
   position: absolute;
-  left: 0;
+  right: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -4254,11 +4254,11 @@ Appointment Form Area CSS
 
 .appointment-form-content .appointment-social-information .social li {
   display: inline-block;
-  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .appointment-form-content .appointment-social-information .social li:last-child {
-  margin-right: 0;
+  margin-left: 0;
 }
 
 .appointment-form-content .appointment-social-information .social li a i {
@@ -4311,7 +4311,7 @@ Appointment Form Area CSS
   font-weight: 500;
   color: var(--black-color);
   font-family: var(--heading-font-family);
-  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .appointment-form-wrap form .form-group .form-control {
@@ -4388,7 +4388,7 @@ Appointment Form Area CSS
 
 .appointment-form-wrap form .form-group .appointment-checkbox-wrap [type="checkbox"]:checked + label, .appointment-form-wrap form .form-group .appointment-checkbox-wrap [type="checkbox"]:not(:checked) + label {
   position: relative;
-  padding-left: 45px;
+  padding-right: 45px;
   cursor: pointer;
   display: inline-block;
   margin-bottom: 0;
@@ -4401,7 +4401,7 @@ Appointment Form Area CSS
 .appointment-form-wrap form .form-group .appointment-checkbox-wrap [type="checkbox"]:checked + label:before, .appointment-form-wrap form .form-group .appointment-checkbox-wrap [type="checkbox"]:not(:checked) + label:before {
   content: '';
   position: absolute;
-  left: 0;
+  right: 0;
   top: 5px;
   width: 30px;
   height: 30px;
@@ -4419,7 +4419,7 @@ Appointment Form Area CSS
   background: var(--main-color);
   position: absolute;
   top: 12.5px;
-  left: 8px;
+  right: 8px;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
   border-radius: 30px;
@@ -4460,7 +4460,7 @@ Appointment Form Area CSS
 
 .appointment-form-image {
   position: absolute;
-  left: 10%;
+  right: 10%;
   bottom: -150px;
   -webkit-transform: translateX(-10%);
           transform: translateX(-10%);
@@ -4479,13 +4479,13 @@ Fun Fact Area CSS
 =================================================*/
 .single-fun-fact-box {
   position: relative;
-  padding-left: 85px;
+  padding-right: 85px;
   margin-bottom: 25px;
 }
 
 .single-fun-fact-box .icon {
   position: absolute;
-  left: 0;
+  right: 0;
   top: 0;
 }
 
@@ -4534,14 +4534,14 @@ Care Area CSS
   height: 100%;
   width: 45%;
   background-color: var(--white-color);
-  right: 0;
+  left: 0;
   top: 0;
   z-index: -1;
   border-radius: 10px 0 0 10px;
 }
 
 .care-content {
-  padding-right: 50px;
+  padding-left: 50px;
 }
 
 .care-content span {
@@ -4571,8 +4571,8 @@ Care Area CSS
 .care-image .care-shape {
   position: absolute;
   top: -80px;
-  left: 70px;
-  right: 0;
+  right: 70px;
+  left: 0;
   z-index: -1;
   text-align: center;
 }
@@ -4585,7 +4585,7 @@ Care Area CSS
   padding: 35px;
   border-radius: 10px;
   position: absolute;
-  left: -30px;
+  right: -30px;
   bottom: 0;
   max-width: 480px;
 }
@@ -4659,8 +4659,8 @@ Quality Healthcare Area CSS
 
 .quality-single-card .image .double-quotes-icon {
   position: absolute;
-  right: 0;
-  left: 85px;
+  left: 0;
+  right: 85px;
   bottom: 0;
 }
 
@@ -4713,8 +4713,8 @@ Quality Healthcare Area CSS
 .quality-single-card .quality-shape-1 {
   position: absolute;
   top: 5%;
-  right: 0;
   left: 0;
+  right: 0;
   z-index: -1;
   -webkit-transform: translateY(-5%);
           transform: translateY(-5%);
@@ -4727,7 +4727,7 @@ Quality Healthcare Area CSS
 }
 
 .quality-healthcare-content-with-image {
-  padding-left: 35px;
+  padding-right: 35px;
 }
 
 .quality-healthcare-content-with-image .quality-content-paragraph {
@@ -4800,7 +4800,7 @@ Quality Healthcare Area CSS
 .quality-healthcare-image-shape {
   position: absolute;
   bottom: 5%;
-  left: 2%;
+  right: 2%;
   -webkit-transform: translateY(-5%) translateX(-2%);
           transform: translateY(-5%) translateX(-2%);
 }
@@ -4827,7 +4827,7 @@ Pricing Area CSS
 .single-pricing-table::before {
   position: absolute;
   content: "";
-  left: 0;
+  right: 0;
   top: 0;
   height: 0%;
   width: 100%;
@@ -4858,7 +4858,7 @@ Pricing Area CSS
   font-weight: bold;
   color: var(--main-color);
   position: relative;
-  right: 10px;
+  left: 10px;
   top: -2px;
 }
 
@@ -4872,7 +4872,7 @@ Pricing Area CSS
 }
 
 .single-pricing-table .pricing-features-list {
-  padding-left: 0;
+  padding-right: 0;
   margin-top: 25px;
   margin-bottom: 0;
 }
@@ -4885,7 +4885,7 @@ Pricing Area CSS
   font-weight: 500;
   margin-bottom: 20px;
   position: relative;
-  padding-left: 25px;
+  padding-right: 25px;
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
@@ -4901,7 +4901,7 @@ Pricing Area CSS
 .single-pricing-table .pricing-features-list li i {
   color: var(--main-color);
   position: absolute;
-  left: 0;
+  right: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -4955,8 +4955,8 @@ Video Area CSS
 .video-area::before {
   position: absolute;
   content: "";
-  left: 0;
   right: 0;
+  left: 0;
   top: 0;
   height: 100%;
   width: 100%;
@@ -4995,10 +4995,10 @@ Video Area CSS
   display: block;
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   z-index: -1;
   bottom: 0;
-  left: 0;
+  right: 0;
   border-radius: 50%;
   border: 1px solid var(--white-color);
   -webkit-animation: ripple 1s linear infinite;
@@ -5068,7 +5068,7 @@ Page Banner Area CSS
 }
 
 .page-banner-content ul {
-  padding-left: 0;
+  padding-right: 0;
   margin-bottom: 0;
 }
 
@@ -5079,13 +5079,13 @@ Page Banner Area CSS
   font-weight: 500;
   color: var(--black-color);
   position: relative;
-  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .page-banner-content ul li::before {
   content: '';
   position: absolute;
-  left: -18px;
+  right: -18px;
   top: 8px;
   height: 5px;
   width: 5px;
@@ -5094,7 +5094,7 @@ Page Banner Area CSS
 }
 
 .page-banner-content ul li:first-child {
-  margin-left: 0;
+  margin-right: 0;
 }
 
 .page-banner-content ul li:first-child::before {
@@ -5112,7 +5112,7 @@ Page Banner Area CSS
 
 .page-banner-image {
   position: absolute;
-  right: 0;
+  left: 0;
   top: -85px;
 }
 
@@ -5187,11 +5187,11 @@ Doctor Calendar Area CSS
 }
 
 .doctor-calendar-table table tbody tr td:first-child {
-  border-left: none;
+  border-right: none;
 }
 
 .doctor-calendar-table table tbody tr td:last-child {
-  border-right: none;
+  border-left: none;
 }
 
 .doctor-calendar-table table tbody tr td h3 {
@@ -5305,7 +5305,7 @@ Working Hours Area CSS
 }
 
 .working-hours-wrap .time-info li span {
-  float: right;
+  float: left;
   font-family: var(--heading-font-family);
 }
 
@@ -5342,14 +5342,14 @@ FAQ Area CSS
   font-size: 18px;
   font-weight: 600;
   padding-top: 20px;
-  padding-left: 35px;
+  padding-right: 35px;
   padding-bottom: 20px;
-  padding-right: 100px;
+  padding-left: 100px;
 }
 
 .faq-accordion .accordion-item .accordion-button::before {
   top: 50%;
-  right: 30px;
+  left: 30px;
   width: 40px;
   height: 40px;
   line-height: 38px;
@@ -5484,7 +5484,7 @@ Profile Authentication Area CSS
   background-color: var(--white-color);
   -webkit-box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
           box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
-  margin-right: 30px;
+  margin-left: 30px;
 }
 
 .login-form h2 {
@@ -5573,7 +5573,7 @@ Profile Authentication Area CSS
 
 .login-form form .remember-me-wrap [type="checkbox"]:checked + label, .login-form form .remember-me-wrap [type="checkbox"]:not(:checked) + label {
   position: relative;
-  padding-left: 28px;
+  padding-right: 28px;
   cursor: pointer;
   display: inline-block;
   margin-bottom: 0;
@@ -5586,7 +5586,7 @@ Profile Authentication Area CSS
 .login-form form .remember-me-wrap [type="checkbox"]:checked + label:before, .login-form form .remember-me-wrap [type="checkbox"]:not(:checked) + label:before {
   content: '';
   position: absolute;
-  left: 0;
+  right: 0;
   top: 3px;
   width: 20px;
   height: 20px;
@@ -5604,7 +5604,7 @@ Profile Authentication Area CSS
   background: var(--main-color);
   position: absolute;
   top: 8.5px;
-  left: 5px;
+  right: 5px;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
   border-radius: 30px;
@@ -5631,7 +5631,7 @@ Profile Authentication Area CSS
 }
 
 .login-form form .lost-your-password-wrap {
-  text-align: right;
+  text-align: left;
 }
 
 .login-form form .lost-your-password-wrap a {
@@ -5647,7 +5647,7 @@ Profile Authentication Area CSS
   width: 100%;
   height: 1px;
   position: absolute;
-  left: 0;
+  right: 0;
   bottom: 0;
   content: '';
   -webkit-transition: var(--transition);
@@ -5659,7 +5659,7 @@ Profile Authentication Area CSS
   width: 0;
   height: 1px;
   position: absolute;
-  left: 0;
+  right: 0;
   -webkit-transition: var(--transition);
   transition: var(--transition);
   bottom: 0;
@@ -5689,7 +5689,7 @@ Profile Authentication Area CSS
 
 .register-form {
   padding-top: 30px;
-  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .register-form h2 {
@@ -5794,7 +5794,7 @@ Terms of Service Area CSS
   margin-top: 25px;
   margin-bottom: 30px;
   background-color: #e6f2f5;
-  text-align: left !important;
+  text-align: right !important;
   padding: 15px 25px !important;
   border-radius: 5px;
   line-height: 1.5;
@@ -5840,7 +5840,7 @@ Privacy Policy Area CSS
   margin-top: 25px;
   margin-bottom: 30px;
   background-color: #e6f2f5;
-  text-align: left !important;
+  text-align: right !important;
   padding: 15px 25px !important;
   border-radius: 5px;
   line-height: 1.5;
@@ -5941,8 +5941,8 @@ Coming Soon Area CSS
   border-radius: 50%;
   font-size: 40px;
   font-weight: bold;
-  margin-left: 5px;
   margin-right: 5px;
+  margin-left: 5px;
 }
 
 .coming-soon-content #timer div span {
@@ -5954,8 +5954,8 @@ Coming Soon Area CSS
 
 .coming-soon-content form {
   max-width: 550px;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
   margin-top: 50px;
 }
 
@@ -6061,7 +6061,7 @@ Products Area CSS
 }
 
 .medip-grid-sorting .ordering {
-  text-align: right;
+  text-align: left;
 }
 
 .medip-grid-sorting .ordering .selectize-input {
@@ -6088,7 +6088,7 @@ Products Area CSS
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  right: 20px !important;
+  left: 20px !important;
   margin-top: 2px;
   font-size: 18px;
   width: unset;
@@ -6153,7 +6153,7 @@ Products Area CSS
 
 .single-products-box .products-image .sale-tag {
   position: absolute;
-  left: 20px;
+  right: 20px;
   top: 20px;
   background-color: var(--optional-color);
   color: var(--white-color);
@@ -6169,7 +6169,7 @@ Products Area CSS
 
 .single-products-box .products-image .new-tag {
   position: absolute;
-  left: 20px;
+  right: 20px;
   top: 20px;
   background-color: var(--main-color);
   color: var(--white-color);
@@ -6210,7 +6210,7 @@ Products Area CSS
 
 .single-products-box .products-content .add-to-cart {
   position: absolute;
-  right: 0;
+  left: 0;
   bottom: 0;
   text-transform: uppercase;
   -webkit-transition: var(--transition);
@@ -6278,7 +6278,7 @@ Cart Area CSS
 
 .cart-table table tbody tr td.product-subtotal .remove {
   color: red;
-  float: right;
+  float: left;
   position: relative;
   top: -1px;
   font-size: 18px;
@@ -6307,13 +6307,13 @@ Cart Area CSS
 }
 
 .cart-table table tbody tr td.product-quantity .input-counter span.minus-btn {
-  left: 0;
+  right: 0;
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
 
 .cart-table table tbody tr td.product-quantity .input-counter span.plus-btn {
-  right: 0;
+  left: 0;
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
@@ -6358,7 +6358,7 @@ Cart Area CSS
 
 .cart-buttons {
   margin-top: 30px;
-  text-align: right;
+  text-align: left;
 }
 
 .cart-buttons .shopping-coupon-code {
@@ -6432,7 +6432,7 @@ Cart Area CSS
 
 .cart-buttons .shopping-coupon-code button {
   position: absolute;
-  right: 0;
+  left: 0;
   top: 0;
   height: 50px;
   background: var(--black-color);
@@ -6459,8 +6459,8 @@ Cart Area CSS
           box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
   border-radius: 5px;
   margin-top: 65px;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
   border-radius: 5px;
 }
 
@@ -6470,7 +6470,7 @@ Cart Area CSS
 }
 
 .cart-totals ul {
-  padding-left: 0;
+  padding-right: 0;
   margin: 0 0 25px;
   list-style-type: none;
 }
@@ -6500,7 +6500,7 @@ Cart Area CSS
 }
 
 .cart-totals ul li span {
-  float: right;
+  float: left;
   color: var(--optional-color);
 }
 
@@ -6519,7 +6519,7 @@ Checkout Area CSS
 
 .user-actions i {
   color: var(--main-color);
-  margin-right: 2px;
+  margin-left: 2px;
   font-size: 20px;
   position: relative;
   top: 3px;
@@ -6550,7 +6550,7 @@ Checkout Area CSS
   position: absolute;
   background: var(--main-color);
   bottom: -1px;
-  left: 0;
+  right: 0;
   width: 50px;
   height: 1px;
 }
@@ -6648,7 +6648,7 @@ Checkout Area CSS
 
 .billing-details .form-check label {
   position: relative;
-  left: -2px;
+  right: -2px;
   top: 0;
   font-weight: 600;
 }
@@ -6678,7 +6678,7 @@ Checkout Area CSS
   position: absolute;
   background: var(--main-color);
   bottom: -1px;
-  left: 0;
+  right: 0;
   width: 50px;
   height: 1px;
 }
@@ -6705,8 +6705,8 @@ Checkout Area CSS
   border-color: #eaedff;
   font-size: 15px;
   font-weight: 500;
-  padding-left: 20px;
   padding-right: 20px;
+  padding-left: 20px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -6741,7 +6741,7 @@ Checkout Area CSS
 }
 
 .order-details .payment-box .payment-method p [type="radio"]:checked + label, .order-details .payment-box .payment-method p [type="radio"]:not(:checked) + label {
-  padding-left: 25px;
+  padding-right: 25px;
   cursor: pointer;
   display: block;
   color: var(--black-color);
@@ -6753,7 +6753,7 @@ Checkout Area CSS
 .order-details .payment-box .payment-method p [type="radio"]:checked + label::before, .order-details .payment-box .payment-method p [type="radio"]:not(:checked) + label::before {
   content: '';
   position: absolute;
-  left: 0;
+  right: 0;
   top: 5px;
   width: 18px;
   height: 18px;
@@ -6767,7 +6767,7 @@ Checkout Area CSS
   content: "\eb7b";
   position: absolute;
   top: 0;
-  left: 4px;
+  right: 4px;
   -webkit-transition: var(--transition);
   transition: var(--transition);
   color: var(--main-color);
@@ -6808,7 +6808,7 @@ Products Details Area CSS
 }
 
 .products-details-desc {
-  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .products-details-desc h3 {
@@ -6889,7 +6889,7 @@ Products Details Area CSS
 .products-details-desc .products-add-to-cart .input-counter {
   max-width: 165px;
   min-width: 165px;
-  margin-right: 10px;
+  margin-left: 10px;
   text-align: center;
   display: inline-block;
   position: relative;
@@ -6910,11 +6910,11 @@ Products Details Area CSS
 }
 
 .products-details-desc .products-add-to-cart .input-counter span.minus-btn {
-  left: 0;
+  right: 0;
 }
 
 .products-details-desc .products-add-to-cart .input-counter span.plus-btn {
-  right: 0;
+  left: 0;
 }
 
 .products-details-desc .products-add-to-cart .input-counter span:hover {
@@ -6963,7 +6963,7 @@ Products Details Area CSS
 }
 
 .products-details-desc .products-share .social {
-  padding-left: 0;
+  padding-right: 0;
   list-style-type: none;
   margin-bottom: 0;
 }
@@ -6974,7 +6974,7 @@ Products Details Area CSS
 
 .products-details-desc .products-share .social li span {
   display: inline-block;
-  margin-right: 3px;
+  margin-left: 3px;
   font-weight: 700;
   position: relative;
   top: -2px;
@@ -6991,7 +6991,7 @@ Products Details Area CSS
   border: 1px solid var(--main-color);
   text-align: center;
   font-size: 17px;
-  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .products-details-desc .products-share .social li a:hover, .products-details-desc .products-share .social li a:focus {
@@ -7056,11 +7056,11 @@ Products Details Area CSS
 
 .products-details-tabs .nav .nav-item {
   display: inline-block;
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .products-details-tabs .nav .nav-item:last-child {
-  margin-right: 0;
+  margin-left: 0;
 }
 
 .products-details-tabs .nav .nav-item .nav-link {
@@ -7078,7 +7078,7 @@ Products Details Area CSS
 .products-details-tabs .nav .nav-item .nav-link::before {
   content: '';
   position: absolute;
-  left: 0;
+  right: 0;
   width: 0;
   height: 3px;
   background-color: var(--main-color);
@@ -7100,7 +7100,7 @@ Products Details Area CSS
 }
 
 .products-details-tabs .tab-content .tab-pane ul {
-  padding-left: 0;
+  padding-right: 0;
   list-style-type: none;
   margin-top: 20px;
   margin-bottom: 0;
@@ -7110,14 +7110,14 @@ Products Details Area CSS
   margin-bottom: 12px;
   position: relative;
   color: var(--paragraph-color);
-  padding-left: 18px;
+  padding-right: 18px;
   font-weight: 500;
 }
 
 .products-details-tabs .tab-content .tab-pane ul li::before {
   content: '';
   position: absolute;
-  left: 0;
+  right: 0;
   top: 8px;
   width: 8px;
   height: 8px;
@@ -7139,7 +7139,7 @@ Products Details Area CSS
 .products-details-tabs .tab-content .tab-pane .products-reviews .rating span {
   font-size: var(--font-size);
   color: #cecfd2;
-  margin-right: -2px;
+  margin-left: -2px;
 }
 
 .products-details-tabs .tab-content .tab-pane .products-reviews .rating span.checked {
@@ -7158,15 +7158,15 @@ Products Details Area CSS
 
 .products-details-tabs .tab-content .tab-pane .products-reviews .row {
   overflow: hidden;
-  margin-left: 0;
   margin-right: 0;
+  margin-left: 0;
 }
 
 .products-details-tabs .tab-content .tab-pane .products-reviews .side {
-  float: left;
+  float: right;
   width: 9%;
   margin-top: 10px;
-  padding-left: 0;
+  padding-right: 0;
 }
 
 .products-details-tabs .tab-content .tab-pane .products-reviews .side div {
@@ -7175,12 +7175,12 @@ Products Details Area CSS
 
 .products-details-tabs .tab-content .tab-pane .products-reviews .middle {
   margin-top: 14px;
-  float: left;
+  float: right;
   width: 82%;
 }
 
-.products-details-tabs .tab-content .tab-pane .products-reviews .right {
-  text-align: right;
+.products-details-tabs .tab-content .tab-pane .products-reviews .left {
+  text-align: left;
 }
 
 .products-details-tabs .tab-content .tab-pane .products-reviews .bar-container {
@@ -7248,7 +7248,7 @@ Products Details Area CSS
 
 .products-details-tabs .tab-content .tab-pane .products-review-comments .user-review img {
   position: absolute;
-  left: 0;
+  right: 0;
   top: 20px;
   width: 90px;
   height: 90px;
@@ -7273,7 +7273,7 @@ Products Details Area CSS
   color: #cecfd2;
   font-size: var(--font-size);
   display: inline-block;
-  margin-right: -2px;
+  margin-left: -2px;
 }
 
 .products-details-tabs .tab-content .tab-pane .products-review-comments .user-review .review-rating .review-stars i.checked {
@@ -7285,7 +7285,7 @@ Products Details Area CSS
   position: relative;
   top: -2px;
   font-weight: 600;
-  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .products-details-tabs .tab-content .tab-pane .review-form-wrapper {
@@ -7308,7 +7308,7 @@ Products Details Area CSS
 
 .products-details-tabs .tab-content .tab-pane .review-form-wrapper form .form-group {
   margin-bottom: 25px;
-  text-align: left;
+  text-align: right;
 }
 
 .products-details-tabs .tab-content .tab-pane .review-form-wrapper form .form-group .form-control {
@@ -7372,7 +7372,7 @@ Products Details Area CSS
 }
 
 .products-details-tabs .tab-content .tab-pane .review-form-wrapper form .rating {
-  text-align: left;
+  text-align: right;
   overflow: hidden;
   max-width: 115px;
   margin-top: -5px;
@@ -7380,7 +7380,7 @@ Products Details Area CSS
 }
 
 .products-details-tabs .tab-content .tab-pane .review-form-wrapper form .rating label {
-  float: right;
+  float: left;
   position: relative;
   width: 23px;
   height: 23px;
@@ -7388,7 +7388,7 @@ Products Details Area CSS
 }
 
 .products-details-tabs .tab-content .tab-pane .review-form-wrapper form .rating label:not(:first-of-type) {
-  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .products-details-tabs .tab-content .tab-pane .review-form-wrapper form .rating label:before {
@@ -7409,7 +7409,7 @@ Products Details Area CSS
 }
 
 .products-details-tabs .tab-content .tab-pane .review-form-wrapper form .comment-form-cookies-consent {
-  text-align: left;
+  text-align: right;
   margin-bottom: 0;
 }
 
@@ -7419,7 +7419,7 @@ Products Details Area CSS
 
 .products-details-tabs .tab-content .tab-pane .review-form-wrapper form .comment-form-cookies-consent [type="checkbox"]:checked + label, .products-details-tabs .tab-content .tab-pane .review-form-wrapper form .comment-form-cookies-consent [type="checkbox"]:not(:checked) + label {
   position: relative;
-  padding-left: 28px;
+  padding-right: 28px;
   cursor: pointer;
   line-height: 20px;
   display: inline-block;
@@ -7431,7 +7431,7 @@ Products Details Area CSS
 .products-details-tabs .tab-content .tab-pane .review-form-wrapper form .comment-form-cookies-consent [type="checkbox"]:checked + label:before, .products-details-tabs .tab-content .tab-pane .review-form-wrapper form .comment-form-cookies-consent [type="checkbox"]:not(:checked) + label:before {
   content: '';
   position: absolute;
-  left: 0;
+  right: 0;
   top: 0;
   width: 20px;
   height: 20px;
@@ -7449,7 +7449,7 @@ Products Details Area CSS
   background: var(--main-color);
   position: absolute;
   top: 6.5px;
-  left: 6px;
+  right: 6px;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
   border-radius: 50px;
@@ -7516,9 +7516,9 @@ Contact Info Area CSS
     .contact-address h3 span {
         position: absolute;
         top: 60px;
-        right: -30px;
+        left: -30px;
         padding: 10px;
-        left: 159px;
+        right: 159px;
         background-color: #ffffff;
         z-index: 11111111;
         border-radius: 10px;
@@ -7545,7 +7545,7 @@ Contact Info Area CSS
 
 .contact-info-box .icon {
   position: absolute;
-  left: 35px;
+  right: 35px;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -7610,11 +7610,11 @@ Contact Info Area CSS
 
 .contact-social-information .social li {
   display: inline-block;
-  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .contact-social-information .social li:last-child {
-  margin-right: 0;
+  margin-left: 0;
 }
 
 .contact-social-information .social li a i {
@@ -7677,7 +7677,7 @@ Contact Area CSS
   font-weight: 500;
   color: var(--black-color);
   font-family: var(--heading-font-family);
-  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .contact-form-wrap form .form-group .form-control {
@@ -7772,7 +7772,7 @@ Contact Area CSS
 Widget Sidebar CSS
 =================================================*/
 .widget-area {
-  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .widget-area .widget {
@@ -7820,7 +7820,7 @@ Widget Sidebar CSS
   width: 50px;
   line-height: 50px;
   position: absolute;
-  right: 5px;
+  left: 5px;
   padding: 0;
   -webkit-transition: var(--transition);
   transition: var(--transition);
@@ -7832,8 +7832,8 @@ Widget Sidebar CSS
 
 .widget-area .widget_search form button i {
   position: absolute;
-  left: 0;
   right: 0;
+  left: 0;
   top: 52%;
   -webkit-transform: translateY(-52%);
           transform: translateY(-52%);
@@ -7845,7 +7845,7 @@ Widget Sidebar CSS
 }
 
 .widget-area .widget_top-services ul {
-  padding-left: 0;
+  padding-right: 0;
   margin-bottom: 0;
   list-style-type: none;
 }
@@ -7854,7 +7854,7 @@ Widget Sidebar CSS
   position: relative;
   margin-bottom: 12px;
   color: var(--black-color);
-  padding-left: 20px;
+  padding-right: 20px;
   font-size: var(--font-size);
   font-weight: 500;
   font-family: var(--heading-font-family);
@@ -7869,7 +7869,7 @@ Widget Sidebar CSS
   height: 10px;
   width: 10px;
   content: '';
-  left: 0;
+  right: 0;
   top: 6px;
   position: absolute;
   border-radius: 30px;
@@ -7885,7 +7885,7 @@ Widget Sidebar CSS
 }
 
 .widget-area .widget_categories ul {
-  padding-left: 0;
+  padding-right: 0;
   margin-bottom: 0;
   list-style-type: none;
 }
@@ -7894,7 +7894,7 @@ Widget Sidebar CSS
   position: relative;
   margin-bottom: 12px;
   color: var(--black-color);
-  padding-left: 20px;
+  padding-right: 20px;
   font-size: var(--font-size);
   font-weight: 500;
   font-family: var(--heading-font-family);
@@ -7909,7 +7909,7 @@ Widget Sidebar CSS
   height: 10px;
   width: 10px;
   content: '';
-  left: 0;
+  right: 0;
   top: 6px;
   position: absolute;
   border-radius: 30px;
@@ -7925,11 +7925,11 @@ Widget Sidebar CSS
 }
 
 .widget-area .widget_categories ul li span {
-  float: right;
+  float: left;
 }
 
 .widget-area .widget_instagram ul {
-  padding-left: 0;
+  padding-right: 0;
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7937,8 +7937,8 @@ Widget Sidebar CSS
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: 0;
-  margin-left: -5px;
   margin-right: -5px;
+  margin-left: -5px;
   margin-top: 0px;
 }
 
@@ -7948,8 +7948,8 @@ Widget Sidebar CSS
           flex: 0 0 33.333333%;
   max-width: 33.333333%;
   text-align: center;
-  padding-left: 5px;
   padding-right: 5px;
+  padding-left: 5px;
   padding-top: 10px;
 }
 
@@ -7961,8 +7961,8 @@ Widget Sidebar CSS
 
 .widget-area .widget_instagram ul li .box i {
   position: absolute;
-  left: 0;
   right: 0;
+  left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -7982,8 +7982,8 @@ Widget Sidebar CSS
 .widget-area .widget_instagram ul li .box::before {
   content: '';
   position: absolute;
-  left: 0;
   right: 0;
+  left: 0;
   top: 0;
   bottom: 0;
   z-index: 1;
@@ -8016,7 +8016,7 @@ Widget Sidebar CSS
   font-weight: 500;
   font-size: 15px;
   margin-top: 8px;
-  margin-right: 5px;
+  margin-left: 5px;
   font-family: var(--heading-font-family);
 }
 
@@ -8040,14 +8040,14 @@ Widget Sidebar CSS
 }
 
 .widget-area .widget_medip_posts_thumb .item .thumb {
-  float: left;
+  float: right;
   height: 90px;
   width: 90px;
   overflow: hidden;
   display: block;
   position: relative;
   top: 2px;
-  margin-right: 15px;
+  margin-left: 15px;
   z-index: 1;
 }
 
@@ -8150,9 +8150,9 @@ Go Top CSS
   position: fixed;
   cursor: pointer;
   bottom: -100px;
-  right: 20px;
+  left: 20px;
   color: var(--white-color);
-  background-color: var(--main-color);
+  background-color: #7b0324;
   z-index: 4;
   width: 45px;
   text-align: center;
@@ -8170,15 +8170,15 @@ Go Top CSS
 
 .go-top i {
   position: absolute;
-  right: 0;
   left: 0;
+  right: 0;
   top: 45%;
   -webkit-transform: translateY(-45%);
           transform: translateY(-45%);
   text-align: center;
   font-size: 30px;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 
 .go-top.active {

@@ -3,7 +3,7 @@
 * https://remixicon.com
 * https://github.com/Remix-Design/RemixIcon
 *
-* Copyright RemixIcon.com
+* Copyleft RemixIcon.com
 * Released under the Apache License Version 2.0
 *
 * Date: 2020-05-23
@@ -80,8 +80,8 @@
 .ri-align-bottom:before { content: "\ea24"; }
 .ri-align-center:before { content: "\ea25"; }
 .ri-align-justify:before { content: "\ea26"; }
-.ri-align-left:before { content: "\ea27"; }
-.ri-align-right:before { content: "\ea28"; }
+.ri-align-right:before { content: "\ea27"; }
+.ri-align-left:before { content: "\ea28"; }
 .ri-align-top:before { content: "\ea29"; }
 .ri-align-vertically:before { content: "\ea2a"; }
 .ri-alipay-fill:before { content: "\ea2b"; }
@@ -122,38 +122,38 @@
 .ri-arrow-down-s-line:before { content: "\ea4e"; }
 .ri-arrow-drop-down-fill:before { content: "\ea4f"; }
 .ri-arrow-drop-down-line:before { content: "\ea50"; }
-.ri-arrow-drop-left-fill:before { content: "\ea51"; }
-.ri-arrow-drop-left-line:before { content: "\ea52"; }
-.ri-arrow-drop-right-fill:before { content: "\ea53"; }
-.ri-arrow-drop-right-line:before { content: "\ea54"; }
+.ri-arrow-drop-right-fill:before { content: "\ea51"; }
+.ri-arrow-drop-right-line:before { content: "\ea52"; }
+.ri-arrow-drop-left-fill:before { content: "\ea53"; }
+.ri-arrow-drop-left-line:before { content: "\ea54"; }
 .ri-arrow-drop-up-fill:before { content: "\ea55"; }
 .ri-arrow-drop-up-line:before { content: "\ea56"; }
 .ri-arrow-go-back-fill:before { content: "\ea57"; }
 .ri-arrow-go-back-line:before { content: "\ea58"; }
 .ri-arrow-go-forward-fill:before { content: "\ea59"; }
 .ri-arrow-go-forward-line:before { content: "\ea5a"; }
-.ri-arrow-left-circle-fill:before { content: "\ea5b"; }
-.ri-arrow-left-circle-line:before { content: "\ea5c"; }
-.ri-arrow-left-down-fill:before { content: "\ea5d"; }
-.ri-arrow-left-down-line:before { content: "\ea5e"; }
-.ri-arrow-left-fill:before { content: "\ea5f"; }
-.ri-arrow-left-line:before { content: "\ea60"; }
-.ri-arrow-left-right-fill:before { content: "\ea61"; }
-.ri-arrow-left-right-line:before { content: "\ea62"; }
-.ri-arrow-left-s-fill:before { content: "\ea63"; }
-.ri-arrow-left-s-line:before { content: "\ea64"; }
-.ri-arrow-left-up-fill:before { content: "\ea65"; }
-.ri-arrow-left-up-line:before { content: "\ea66"; }
-.ri-arrow-right-circle-fill:before { content: "\ea67"; }
-.ri-arrow-right-circle-line:before { content: "\ea68"; }
-.ri-arrow-right-down-fill:before { content: "\ea69"; }
-.ri-arrow-right-down-line:before { content: "\ea6a"; }
-.ri-arrow-right-fill:before { content: "\ea6b"; }
-.ri-arrow-right-line:before { content: "\ea6c"; }
-.ri-arrow-right-s-fill:before { content: "\ea6d"; }
-.ri-arrow-right-s-line:before { content: "\ea6e"; }
-.ri-arrow-right-up-fill:before { content: "\ea6f"; }
-.ri-arrow-right-up-line:before { content: "\ea70"; }
+.ri-arrow-right-circle-fill:before { content: "\ea5b"; }
+.ri-arrow-right-circle-line:before { content: "\ea5c"; }
+.ri-arrow-right-down-fill:before { content: "\ea5d"; }
+.ri-arrow-right-down-line:before { content: "\ea5e"; }
+.ri-arrow-right-fill:before { content: "\ea5f"; }
+.ri-arrow-right-line:before { content: "\ea60"; }
+.ri-arrow-right-left-fill:before { content: "\ea61"; }
+.ri-arrow-right-left-line:before { content: "\ea62"; }
+.ri-arrow-right-s-fill:before { content: "\ea63"; }
+.ri-arrow-right-s-line:before { content: "\ea64"; }
+.ri-arrow-right-up-fill:before { content: "\ea65"; }
+.ri-arrow-right-up-line:before { content: "\ea66"; }
+.ri-arrow-left-circle-fill:before { content: "\ea67"; }
+.ri-arrow-left-circle-line:before { content: "\ea68"; }
+.ri-arrow-left-down-fill:before { content: "\ea69"; }
+.ri-arrow-left-down-line:before { content: "\ea6a"; }
+.ri-arrow-left-fill:before { content: "\ea6b"; }
+.ri-arrow-left-line:before { content: "\ea6c"; }
+.ri-arrow-left-s-fill:before { content: "\ea6d"; }
+.ri-arrow-left-s-line:before { content: "\ea6e"; }
+.ri-arrow-left-up-fill:before { content: "\ea6f"; }
+.ri-arrow-left-up-line:before { content: "\ea70"; }
 .ri-arrow-up-circle-fill:before { content: "\ea71"; }
 .ri-arrow-up-circle-line:before { content: "\ea72"; }
 .ri-arrow-up-down-fill:before { content: "\ea73"; }
@@ -520,10 +520,10 @@
 .ri-copper-coin-line:before { content: "\ebdc"; }
 .ri-copper-diamond-fill:before { content: "\ebdd"; }
 .ri-copper-diamond-line:before { content: "\ebde"; }
-.ri-copyleft-fill:before { content: "\ebdf"; }
-.ri-copyleft-line:before { content: "\ebe0"; }
-.ri-copyright-fill:before { content: "\ebe1"; }
-.ri-copyright-line:before { content: "\ebe2"; }
+.ri-copyright-fill:before { content: "\ebdf"; }
+.ri-copyright-line:before { content: "\ebe0"; }
+.ri-copyleft-fill:before { content: "\ebe1"; }
+.ri-copyleft-line:before { content: "\ebe2"; }
 .ri-coreos-fill:before { content: "\ebe3"; }
 .ri-coreos-line:before { content: "\ebe4"; }
 .ri-coupon-2-fill:before { content: "\ebe5"; }
@@ -1162,8 +1162,8 @@
 .ri-input-cursor-move:before { content: "\ee5e"; }
 .ri-input-method-fill:before { content: "\ee5f"; }
 .ri-input-method-line:before { content: "\ee60"; }
-.ri-insert-column-left:before { content: "\ee61"; }
-.ri-insert-column-right:before { content: "\ee62"; }
+.ri-insert-column-right:before { content: "\ee61"; }
+.ri-insert-column-left:before { content: "\ee62"; }
 .ri-insert-row-bottom:before { content: "\ee63"; }
 .ri-insert-row-top:before { content: "\ee64"; }
 .ri-instagram-fill:before { content: "\ee65"; }
@@ -1210,17 +1210,17 @@
 .ri-layout-fill:before { content: "\ee8e"; }
 .ri-layout-grid-fill:before { content: "\ee8f"; }
 .ri-layout-grid-line:before { content: "\ee90"; }
-.ri-layout-left-2-fill:before { content: "\ee91"; }
-.ri-layout-left-2-line:before { content: "\ee92"; }
-.ri-layout-left-fill:before { content: "\ee93"; }
-.ri-layout-left-line:before { content: "\ee94"; }
+.ri-layout-right-2-fill:before { content: "\ee91"; }
+.ri-layout-right-2-line:before { content: "\ee92"; }
+.ri-layout-right-fill:before { content: "\ee93"; }
+.ri-layout-right-line:before { content: "\ee94"; }
 .ri-layout-line:before { content: "\ee95"; }
 .ri-layout-masonry-fill:before { content: "\ee96"; }
 .ri-layout-masonry-line:before { content: "\ee97"; }
-.ri-layout-right-2-fill:before { content: "\ee98"; }
-.ri-layout-right-2-line:before { content: "\ee99"; }
-.ri-layout-right-fill:before { content: "\ee9a"; }
-.ri-layout-right-line:before { content: "\ee9b"; }
+.ri-layout-left-2-fill:before { content: "\ee98"; }
+.ri-layout-left-2-line:before { content: "\ee99"; }
+.ri-layout-left-fill:before { content: "\ee9a"; }
+.ri-layout-left-line:before { content: "\ee9b"; }
 .ri-layout-row-fill:before { content: "\ee9c"; }
 .ri-layout-row-line:before { content: "\ee9d"; }
 .ri-layout-top-2-fill:before { content: "\ee9e"; }

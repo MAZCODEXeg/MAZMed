@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ str_replace('_', '-', getCurrentLanguageName()) }}">
+<html lang="{{ str_replace('_', '-', getCurrentLanguageName()) }}" dir="rtl">
 
 <head>
     <meta charset="UTF-8">

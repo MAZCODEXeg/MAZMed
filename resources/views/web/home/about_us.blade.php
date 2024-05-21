@@ -6,13 +6,47 @@
     {{--    <link rel="stylesheet" href="{{ mix('web_front/css/about.css') }}"> --}}
 @endsection
 @section('content')
+<style>
+    /* Additional RTL styles */
+    body[dir="rtl"] .text-xl-end {
+        text-align: start;
+    }
+
+    body[dir="rtl"] .ms-xl-3 {
+        margin-inline-start: 1rem;
+    }
+
+    body[dir="rtl"] .me-2 {
+        margin-inline-end: 0.5rem;
+    }
+
+    /* Slider styling */
+    .slick-slider {
+        direction: ltr; /* Ensures the slider functions correctly in RTL */
+    }
+
+    .slick-slider .slide {
+        background-color: blue;
+        text-align: center;
+    }
+
+    .slick-slider .slide img {
+        margin: 0 auto;
+    }
+
+    .slick-slider .slide-desc {
+        margin-top: 1rem;
+        text-align: center;
+    }
+</style>
+
     <div class="about-page">
         <!-- start hero section -->
         <section
             class="hero-section position-relative p-t-60 border-bottom-right-rounded border-bottom-left-rounded bg-gray overflow-hidden">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6 text-lg-start text-center">
+                    <div class="col-lg-6 text-lg-end text-center">
                         <div class="hero-content">
                             <h1 class="mb-3 pb-1">
                                 {{ __('messages.web_home.about_us') }}
@@ -28,7 +62,7 @@
                             </nav>
                         </div>
                     </div>
-                    <div class="col-lg-6 text-lg-end text-center">
+                    <div class="col-lg-6 text-lg-start text-center">
                         <!--<img src="{{ !empty($frontSetting['about_us_image']) ? $frontSetting['about_us_image'] : asset('web_front/images/page-banner/About.png') }}"-->
                         <!--    alt="Infy Care" class="img-fluid" />-->
                         <img src="{{ asset('web_front/images/page-banner/About.png') }}" alt="Infy Care" class="img-fluid" /> 
@@ -85,7 +119,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="about-right pb-5 pt-lg-5 text-lg-start text-center">
+                        <div class="about-right pb-5 pt-lg-5 text-lg-end text-center">
                             <h2 class="mt-md-3">{{ \Illuminate\Support\Str::limit($frontSetting['about_us_title'], 50) }}
                             </h2>
                             <p class="mt-4">{!! \Illuminate\Support\Str::limit($frontSetting['about_us_description'], 615) !!}</p>

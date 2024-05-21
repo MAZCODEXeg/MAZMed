@@ -6,7 +6,7 @@ Version : 1.0
 Author  : Surjith S M
 URI     : http://themeforest.net/user/surjithctly
 
-Copyright © All rights Reserved
+Copyleft © All lefts Reserved
 Surjith S M / @surjithctly
 
 
@@ -179,7 +179,7 @@ header {
 }
 
 .header__bg {
-    background: url("../images/hms-hero-image.jpg") right top no-repeat;
+    background: url("../images/hms-hero-image.jpg") left top no-repeat;
     background-size: 34vw;
     background-position: calc(50% + 300px) 50%;
 }
@@ -224,9 +224,9 @@ header {
 .banner-img img {
     position: relative;
     top: -280px;
-    right: -50px;
+    left: -50px;
     z-index: 0;
-    text-align: right;
+    text-align: left;
     min-width: 150%;
     max-height: 700px;
     z-index: -1;
@@ -236,7 +236,7 @@ header {
     .banner-img img {
         position: absolute;
         top: -260px;
-        right: -190px;
+        left: -190px;
         min-width: inherit;
         max-height: 900px;
         z-index: 0;
@@ -246,7 +246,7 @@ header {
 @media (min-width: 1200px) {
     .banner-img img {
         top: -300px;
-        right: -100px;
+        left: -100px;
         max-height: 1100px;
     }
 }
@@ -256,7 +256,7 @@ header {
     margin: 20px 0 0;
     background: #eda384;
     background: -moz-linear-gradient(-45deg, #eda384 0%, #f40f7e 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, #eda384), color-stop(100%, #f40f7e));
+    background: -webkit-gradient(right top, left bottom, color-stop(0%, #eda384), color-stop(100%, #f40f7e));
     background: -webkit-linear-gradient(-45deg, #eda384 0%, #f40f7e 100%);
     background: -o-linear-gradient(-45deg, #eda384 0%, #f40f7e 100%);
     background: -ms-linear-gradient(-45deg, #eda384 0%, #f40f7e 100%);
@@ -275,7 +275,7 @@ header {
 .btn-danger:hover {
     background: #eda384;
     background: -moz-linear-gradient(45deg, #eda384 0%, #f40f7e 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, #eda384), color-stop(100%, #f40f7e));
+    background: -webkit-gradient(right bottom, left top, color-stop(0%, #eda384), color-stop(100%, #f40f7e));
     background: -webkit-linear-gradient(45deg, #eda384 0%, #f40f7e 100%);
     background: -o-linear-gradient(45deg, #eda384 0%, #f40f7e 100%);
     background: -ms-linear-gradient(45deg, #eda384 0%, #f40f7e 100%);
@@ -311,7 +311,7 @@ header {
 .banner-img-2 {
     position: absolute;
     bottom: 0;
-    left: 0;
+    right: 0;
     z-index: -1;
 }
 
@@ -399,7 +399,7 @@ header {
 }
 
 .insurance-type img {
-    float: left;
+    float: right;
 }
 
 .insurance-type:hover {
@@ -411,7 +411,7 @@ header {
 }
 
 .insurance-type_title {
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .insurance-type_title h6 {
@@ -507,7 +507,7 @@ header {
     background: url(../images/after-blue.png) no-repeat;
     width: 50px;
     height: 10px;
-    right: -29px;
+    left: -29px;
     top: 23%;
 }
 
@@ -527,7 +527,7 @@ header {
     background: url(../images/after-pink.png) no-repeat;
     width: 50px;
     height: 10px;
-    right: -29px;
+    left: -29px;
     top: 23%;
 }
 
@@ -542,7 +542,7 @@ header {
    ========================================================================== */
 .testimonial {
     position: relative;
-    background: url(../images/bg-image3.png) no-repeat right bottom;
+    background: url(../images/bg-image3.png) no-repeat left bottom;
     padding: 178px 0;
     z-index: -2;
     background-size: contain;
@@ -562,14 +562,14 @@ header {
 
 .testi-img_wrap {
     width: 100%;
-    text-align: right;
+    text-align: left;
 }
 
 @media (min-width: 992px) {
     .testi-img_wrap {
         position: absolute;
         bottom: 0;
-        right: 0;
+        left: 0;
         max-width: 60%;
     }
 }
@@ -577,14 +577,14 @@ header {
 @media (min-width: 1200px) {
     .testi-img_wrap {
         max-width: 50%;
-        right: 8%;
+        left: 8%;
     }
 }
 
 .bg-img3 {
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     z-index: -1;
 }
 
@@ -772,8 +772,8 @@ header {
     position: absolute;
     width: 100%;
     top: 0;
-    right: 0;
     left: 0;
+    right: 0;
     bottom: 0;
     z-index: -1;
 }
@@ -799,7 +799,7 @@ header {
 }
 
 /*
-Copyright © All rights Reserved
+Copyleft © All lefts Reserved
 Surjith S M / @surjithctly
 */
 .pricing-block {
@@ -871,7 +871,7 @@ Surjith S M / @surjithctly
 }
 
 .pricing-text {
-    text-align: left;
+    text-align: right;
 }
 
 .pricing-text i {
@@ -935,7 +935,7 @@ Surjith S M / @surjithctly
 .star-middle {
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     padding: 27px 12px;
     background: #fdeebe;
     -webkit-transform: rotate(130deg);
@@ -958,7 +958,7 @@ Surjith S M / @surjithctly
 
 .pricing-bg02 {
     position: absolute;
-    right: 0;
+    left: 0;
     bottom: 0;
     z-index: -1;
 }
@@ -1032,7 +1032,7 @@ footer {
     line-height: 1.8;
 }
 
-.copyright {
+.copyleft {
     text-align: center;
     padding: 70px 0 0;
 }
@@ -1047,45 +1047,45 @@ footer {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 1rem;
     padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .dropdown-toggle i {
     color: #2c6cd3;
     font-size: 14px;
-    margin-right: 4px;
+    margin-left: 4px;
 }
 
 .main-banner {
     position: absolute;
     top: 0;
-    right: 12%;
+    left: 12%;
     z-index: -1;
 }
 
 @media (max-width: 1600px) {
     .main-banner {
-        right: 4%;
+        left: 4%;
     }
 }
 
 @media (max-width: 1400px) {
     .main-banner {
-        right: 0;
+        left: 0;
     }
 }
 
 @media (max-width: 1200px) {
     .main-banner {
-        right: -2%;
+        left: -2%;
         width: 75%;
     }
 }
 
 @media (max-width: 992px) {
     .main-banner {
-        right: -4%;
+        left: -4%;
         width: 70%;
     }
 }
@@ -1104,33 +1104,33 @@ footer {
 
 .main-banner-alt {
     position: absolute;
-    right: 5%;
+    left: 5%;
     top: 0;
 }
 
 .bg-style {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     z-index: -1;
 }
 
 .bg-style2 {
     position: absolute;
-    left: 0;
+    right: 0;
     bottom: 20%;
     z-index: 0;
 }
 
 @media (max-width: 1400px) {
     .bg-style2 {
-        left: -15%;
+        right: -15%;
     }
 }
 
 @media (max-width: 992px) {
     .bg-style2 {
-        left: -20%;
+        right: -20%;
         bottom: 6%;
     }
 }
@@ -1145,13 +1145,13 @@ footer {
 .banner-img-3 {
     position: absolute;
     bottom: 12%;
-    left: 11%;
+    right: 11%;
     z-index: -1;
 }
 
 @media (max-width: 1400px) {
     .banner-img-3 {
-        left: 0;
+        right: 0;
     }
 }
 
@@ -1183,8 +1183,8 @@ footer {
     position: absolute;
     width: 100%;
     top: -14%;
-    right: 0;
     left: 0;
+    right: 0;
     bottom: 0;
     z-index: -1;
 }

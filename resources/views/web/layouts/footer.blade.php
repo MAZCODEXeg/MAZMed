@@ -53,19 +53,19 @@
                 <div class="footer-info">
 
                     <div class="d-flex align-items-center footer-info__block mb-3 pb-1">
-                        <i class="fa-solid fa-phone text-white fs-5 me-3"></i>
+                        <i class="fa-solid fa-phone text-white fs-5 ms-3"></i>
                         <a href="tel:{{ $settingValue['hospital_phone']['value'] }}" class="text-decoration-none text-white fs-6">
                             {{ $settingValue['hospital_phone']['value'] }}
                         </a>
                     </div>
                     <div class="d-flex align-items-center footer-info__block mb-3 pb-1">
-                        <i class="fa-solid fa-clock fs-5 me-3 text-white"></i>
+                        <i class="fa-solid fa-clock fs-5 ms-3 text-white"></i>
                         <p class="text-white fs-6 mb-0">
                             {{ $settingValue['hospital_from_time']['value'] }}
                         </p>
                     </div>
                     <div class="d-flex align-items-center footer-info__block mb-3 pb-1">
-                        <i class="fa-solid fa-location-dot fs-5 me-3 text-white"></i>
+                        <i class="fa-solid fa-location-dot fs-5 ms-3 text-white"></i>
                         <p class="text-white fs-6 mb-0">
                             {{ $settingValue['hospital_address']['value'] }}
                         </p>

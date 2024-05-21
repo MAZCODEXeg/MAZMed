@@ -3,14 +3,120 @@
     {{ __('web.home') }}
 @endsection
 @section('content')
+    <style>
+        /* Hide the div by default */
+        .mobile-only {
+            display: none;
+        }
+
+        /* Show the div only on screens smaller than 768px (mobile devices) */
+        @media (max-width: 767.98px) {
+            .mobile-only {
+                display: block;
+            }
+        }
+
+        /* Additional RTL styles */
+        body[dir="rtl"] .text-xl-end {
+            text-align: start;
+        }
+
+        body[dir="rtl"] .ms-xl-3 {
+            margin-inline-start: 1rem;
+        }
+
+        body[dir="rtl"] .me-2 {
+            margin-inline-end: 0.5rem;
+        }
+
+        /* Slider styling */
+        .slick-slider {
+            direction: ltr; /* Ensures the slider functions correctly in RTL */
+        }
+
+        .slick-slider .slide {
+            text-align: center;
+        }
+
+        .slick-slider .slide img {
+            margin: 0 auto;
+        }
+
+        .slick-slider .slide-desc {
+            margin-top: 1rem;
+            text-align: center;
+        }
+    </style>
     <div class="home-page">
         <!-- start hero section -->
         <section
                 class="hero-section position-relative p-t-120 p-b-200 border-bottom-right-rounded border-bottom-left-rounded bg-gray"
                 id="div1">
+                <div class="text-xl-end header-btn-grp ms-xl-3 mobile-only" style="text-align: center;">
+                    @if(Auth::user())
+                        @role('Admin')
+                            <a href="{{ route('dashboard') }}"
+                               data-turbo="false"
+                               class="btn btn-success me-2 mb-3 mb-xl-0">{{ __('messages.dashboard.dashboard') }}
+                            </a>
+                        @endrole
+                        @role('Patient')
+                            <a href="{{url('patient/my-cases') }}"
+                               data-turbo="false"
+                               class="btn btn-success me-2 mb-3 mb-xl-0">{{ __('messages.dashboard.dashboard') }}
+                            </a>
+                        @endrole
+                        @role('Doctor')
+                            <a href="{{ url('employee/doctor') }}"
+                               data-turbo="false"
+                               class="btn btn-success me-2 mb-3 mb-xl-0">{{ __('messages.dashboard.dashboard') }}
+                            </a>
+                        @endrole
+                        @role('Nurse')
+                            <a href="{{ url('bed-types') }}"
+                               data-turbo="false"
+                               class="btn btn-success me-2 mb-3 mb-xl-0">{{ __('messages.dashboard.dashboard') }}
+                            </a>
+                        @endrole
+                        @role('Receptionist')
+                            <a href="{{ url('appointments') }}"
+                               data-turbo="false"
+                               class="btn btn-success me-2 mb-3 mb-xl-0">{{ __('messages.dashboard.dashboard') }}
+                            </a>
+                        @endrole
+                        @role('Pharmacist')
+                            <a href="{{ url('employee/doctor') }}"
+                               data-turbo="false"
+                               class="btn btn-success me-2 mb-3 mb-xl-0">{{ __('messages.dashboard.dashboard') }}
+                            </a>
+                        @endrole
+                        @role('Accountant')
+                            <a href="{{ url('accounts') }}"
+                               data-turbo="false"
+                               class="btn btn-success me-2 mb-3 mb-xl-0">{{ __('messages.dashboard.dashboard') }}
+                            </a>
+                        @endrole
+                        @role('Case Manager')
+                            <a href="{{ url('employee/doctor') }}"
+                               data-turbo="false"
+                               class="btn btn-success me-2 mb-3 mb-xl-0">{{ __('messages.dashboard.dashboard') }}
+                            </a>
+                        @endrole
+                    @else
+                        <a href="{{ route('login') }}"
+                           data-turbo="false"
+                                class="btn btn-success me-2 mb-3 mb-xl-0">
+                            {{ __('messages.web_menu.login') }}
+                        </a>
+                    @endif
+                        <a href="{{ route('appointment') }}" class="btn btn-primary mb-3 mb-xl-0">
+                            {{ __('messages.web_home.book_appointment') }}
+                        </a>
+                </div>
+                
             <div class="container">
                 <div class="row align-items-center flex-column-reverse flex-lg-row">
-                    <div class="col-lg-6 text-lg-start text-center">
+                    <div class="col-lg-6 text-lg-end text-center">
                         <div class="hero-content mt-5 mt-lg-0">
                             <h6 class="text-primary mb-3">{{ $frontSetting['home_page_experience'] }} {{ __('messages.web_home.years_experience') }}</h6>
                             <h1 class="mb-3 pb-1">
@@ -24,7 +130,7 @@
                             @endif
                         </div>
                     </div>
-                    <div class="col-lg-6 text-lg-end text-center">
+                    <div class="col-lg-6 text-lg-start text-center">
                         <img src="{{ !empty($frontSetting['home_page_image']) ? $frontSetting['home_page_image'] : asset('web_front/images/main-banner/banner-one/Home.png') }}"
                              alt="Infy Care" class="img-fluid"/>
                     </div>
@@ -178,7 +284,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="about-right pb-5 pt-lg-5 text-lg-start text-center">
+                        <div class="about-right pb-5 pt-lg-5 text-lg-end text-center">
                             <h2 class="mt-md-3">{{ \Illuminate\Support\Str::limit(getFrontSettingValue(\App\Models\FrontSetting::ABOUT_US, 'about_us_title'), 31) }}</h2>
                             <p class="mt-4">{!!  \Illuminate\Support\Str::limit(getFrontSettingValue(\App\Models\FrontSetting::ABOUT_US, 'about_us_description'), 615)  !!}</p>
                             <a href="{{ route('appointment') }}"
@@ -225,7 +331,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
-                        <div class="quality-desc mt-lg-4 text-lg-start text-center">
+                        <div class="quality-desc mt-lg-4 text-lg-end text-center">
                             <h6 class="text-primary pb-2">
                                 {{ \Illuminate\Support\Str::limit($frontSetting['home_page_certified_doctor_text'], 64) }}
                             </h6>

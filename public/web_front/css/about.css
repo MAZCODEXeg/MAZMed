@@ -1,6 +1,6 @@
 .about-page .quality-and-testimonial-section .testimonial-slider .quote-img {
   top: 30px;
-  right: -20px;
+  left: -20px;
   width: 60px;
   height: 60px;
   background-color: #FF8E4B;
@@ -13,7 +13,7 @@
     width: 55px;
     height: 55px;
     top: 20px;
-    right: -12px;
+    left: -12px;
   }
 }
 @media (max-width: 767px) {
@@ -41,7 +41,7 @@
 }
 @media (max-width: 767px) and (min-width: 576px) {
   .about-page .quality-and-testimonial-section .testimonial-slider .testimonial-desc {
-    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 .about-page .quality-and-testimonial-section .slick-dots {

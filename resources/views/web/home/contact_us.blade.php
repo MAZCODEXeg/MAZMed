@@ -17,7 +17,7 @@
             class="hero-section position-relative p-t-60 border-bottom-right-rounded border-bottom-left-rounded bg-gray overflow-hidden">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6 text-lg-start text-center">
+                    <div class="col-lg-6 text-lg-end text-center">
                         <div class="hero-content">
                             <h1 class="mb-3 pb-1">
                                 {{ __('messages.web_home.contact') }}
@@ -34,7 +34,7 @@
                             </nav>
                         </div>
                     </div>
-                    <div class="col-lg-6 text-lg-end text-center">
+                    <div class="col-lg-6 text-lg-start text-center">
                         <img src="{{ asset('web_front/images/page-banner/Contact.png') }}" alt="Infy Care"
                             class="img-fluid" />
                     </div>
@@ -103,7 +103,7 @@
                     </div>
                 </div>
                 <div class="col-12 text-center">
-                    <div class="btn-group mt-4 mt-xl-5">
+                    <div class="mt-4 mt-xl-5">
                         @if ($settingValue['facebook_url']['value'] != '' && !empty($settingValue['facebook_url']['value']))
                             <a href="{{ $settingValue['facebook_url']['value'] }}" target="_blank"
                                 class="btn btn-primary fs-4">
